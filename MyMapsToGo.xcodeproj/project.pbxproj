@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043FB4871CCBF8A66D9E90D0 /* Pods_MyMapsToGo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE6BC543EBC789FF319B82C3 /* Pods_MyMapsToGo.framework */; };
+		13D2F4582096DD37009A76EF /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D2F4572096DD37009A76EF /* Endpoints.swift */; };
+		13D2F45A2096EAAE009A76EF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D2F4592096EAAE009A76EF /* Alamofire.framework */; };
+		13D2F45C2096F139009A76EF /* GmapsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D2F45B2096F139009A76EF /* GmapsModel.swift */; };
+		13DDF0C720918E7400701BD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0C620918E7400701BD5 /* AppDelegate.swift */; };
+		13DDF0C920918E7400701BD5 /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0C820918E7400701BD5 /* MapsViewController.swift */; };
+		13DDF0CC20918E7400701BD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DDF0CA20918E7400701BD5 /* Main.storyboard */; };
+		13DDF0CF20918E7400701BD5 /* MyMapsToGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0CD20918E7400701BD5 /* MyMapsToGo.xcdatamodeld */; };
+		13DDF0D120918E7700701BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DDF0D020918E7700701BD5 /* Assets.xcassets */; };
+		13DDF0D420918E7700701BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DDF0D220918E7700701BD5 /* LaunchScreen.storyboard */; };
+		13DDF0DF20918E7700701BD5 /* MyMapsToGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0DE20918E7700701BD5 /* MyMapsToGoTests.swift */; };
+		13DDF0EA20918E7700701BD5 /* MyMapsToGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0E920918E7700701BD5 /* MyMapsToGoUITests.swift */; };
+		13DDF0F82091AC2D00701BD5 /* PopUpModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DDF0F72091AC2D00701BD5 /* PopUpModalViewController.swift */; };
+		13E3E45C2092F050006BC109 /* style.json in Resources */ = {isa = PBXBuildFile; fileRef = 13E3E45B2092F050006BC109 /* style.json */; };
+		49B6B9A4C9EA57AACD8E30E7 /* Pods_MyMapsToGoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC95257DF32AF8898C584DA /* Pods_MyMapsToGoTests.framework */; };
+		CA999767557A0809CBC1F6AE /* Pods_MyMapsToGoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA87ABA13D129E0059EE45D /* Pods_MyMapsToGoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13DDF0DB20918E7700701BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13DDF0BB20918E7400701BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DDF0C220918E7400701BD5;
+			remoteInfo = MyMapsToGo;
+		};
+		13DDF0E620918E7700701BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13DDF0BB20918E7400701BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13DDF0C220918E7400701BD5;
+			remoteInfo = MyMapsToGo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13D2F4572096DD37009A76EF /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		13D2F4592096EAAE009A76EF /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D2F45B2096F139009A76EF /* GmapsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmapsModel.swift; sourceTree = "<group>"; };
+		13DDF0C320918E7400701BD5 /* MyMapsToGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMapsToGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DDF0C620918E7400701BD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13DDF0C820918E7400701BD5 /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
+		13DDF0CB20918E7400701BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13DDF0CE20918E7400701BD5 /* MyMapsToGo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMapsToGo.xcdatamodel; sourceTree = "<group>"; };
+		13DDF0D020918E7700701BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13DDF0D320918E7700701BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13DDF0D520918E7700701BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DDF0DA20918E7700701BD5 /* MyMapsToGoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMapsToGoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DDF0DE20918E7700701BD5 /* MyMapsToGoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapsToGoTests.swift; sourceTree = "<group>"; };
+		13DDF0E020918E7700701BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DDF0E520918E7700701BD5 /* MyMapsToGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMapsToGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13DDF0E920918E7700701BD5 /* MyMapsToGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMapsToGoUITests.swift; sourceTree = "<group>"; };
+		13DDF0EB20918E7700701BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13DDF0F72091AC2D00701BD5 /* PopUpModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpModalViewController.swift; sourceTree = "<group>"; };
+		13E3E45B2092F050006BC109 /* style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = style.json; sourceTree = SOURCE_ROOT; };
+		1CA87ABA13D129E0059EE45D /* Pods_MyMapsToGoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMapsToGoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44EA2BC7405F83F3BAD65DA7 /* Pods-MyMapsToGoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGoTests/Pods-MyMapsToGoTests.release.xcconfig"; sourceTree = "<group>"; };
+		591846F4800B155E3A7ECC1F /* Pods-MyMapsToGo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo.release.xcconfig"; sourceTree = "<group>"; };
+		5F713B5C29E80CFE96B94CA9 /* Pods-MyMapsToGoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGoUITests/Pods-MyMapsToGoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A0AC2EAED417AC88B2F1893 /* Pods-MyMapsToGoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGoUITests/Pods-MyMapsToGoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B636D3BC932F9A7999E35D06 /* Pods-MyMapsToGo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo.debug.xcconfig"; sourceTree = "<group>"; };
+		BE6BC543EBC789FF319B82C3 /* Pods_MyMapsToGo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMapsToGo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC95257DF32AF8898C584DA /* Pods_MyMapsToGoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyMapsToGoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F72F5BF143BE76AF8D8E5665 /* Pods-MyMapsToGoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMapsToGoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMapsToGoTests/Pods-MyMapsToGoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DDF0C020918E7400701BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D2F45A2096EAAE009A76EF /* Alamofire.framework in Frameworks */,
+				043FB4871CCBF8A66D9E90D0 /* Pods_MyMapsToGo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0D720918E7700701BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49B6B9A4C9EA57AACD8E30E7 /* Pods_MyMapsToGoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0E220918E7700701BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA999767557A0809CBC1F6AE /* Pods_MyMapsToGoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08255F01692E11687C34A180 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D2F4592096EAAE009A76EF /* Alamofire.framework */,
+				BE6BC543EBC789FF319B82C3 /* Pods_MyMapsToGo.framework */,
+				CBC95257DF32AF8898C584DA /* Pods_MyMapsToGoTests.framework */,
+				1CA87ABA13D129E0059EE45D /* Pods_MyMapsToGoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13DDF0BA20918E7400701BD5 = {
+			isa = PBXGroup;
+			children = (
+				13DDF0C520918E7400701BD5 /* MyMapsToGo */,
+				13DDF0DD20918E7700701BD5 /* MyMapsToGoTests */,
+				13DDF0E820918E7700701BD5 /* MyMapsToGoUITests */,
+				13DDF0C420918E7400701BD5 /* Products */,
+				A3BB80EDD9C07E33491C6F57 /* Pods */,
+				08255F01692E11687C34A180 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13DDF0C420918E7400701BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13DDF0C320918E7400701BD5 /* MyMapsToGo.app */,
+				13DDF0DA20918E7700701BD5 /* MyMapsToGoTests.xctest */,
+				13DDF0E520918E7700701BD5 /* MyMapsToGoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13DDF0C520918E7400701BD5 /* MyMapsToGo */ = {
+			isa = PBXGroup;
+			children = (
+				13E3E45B2092F050006BC109 /* style.json */,
+				13DDF0C620918E7400701BD5 /* AppDelegate.swift */,
+				13DDF0C820918E7400701BD5 /* MapsViewController.swift */,
+				13DDF0F72091AC2D00701BD5 /* PopUpModalViewController.swift */,
+				13DDF0CA20918E7400701BD5 /* Main.storyboard */,
+				13DDF0D020918E7700701BD5 /* Assets.xcassets */,
+				13DDF0D220918E7700701BD5 /* LaunchScreen.storyboard */,
+				13DDF0D520918E7700701BD5 /* Info.plist */,
+				13DDF0CD20918E7400701BD5 /* MyMapsToGo.xcdatamodeld */,
+				13D2F4572096DD37009A76EF /* Endpoints.swift */,
+				13D2F45B2096F139009A76EF /* GmapsModel.swift */,
+			);
+			path = MyMapsToGo;
+			sourceTree = "<group>";
+		};
+		13DDF0DD20918E7700701BD5 /* MyMapsToGoTests */ = {
+			isa = PBXGroup;
+			children = (
+				13DDF0DE20918E7700701BD5 /* MyMapsToGoTests.swift */,
+				13DDF0E020918E7700701BD5 /* Info.plist */,
+			);
+			path = MyMapsToGoTests;
+			sourceTree = "<group>";
+		};
+		13DDF0E820918E7700701BD5 /* MyMapsToGoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13DDF0E920918E7700701BD5 /* MyMapsToGoUITests.swift */,
+				13DDF0EB20918E7700701BD5 /* Info.plist */,
+			);
+			path = MyMapsToGoUITests;
+			sourceTree = "<group>";
+		};
+		A3BB80EDD9C07E33491C6F57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B636D3BC932F9A7999E35D06 /* Pods-MyMapsToGo.debug.xcconfig */,
+				591846F4800B155E3A7ECC1F /* Pods-MyMapsToGo.release.xcconfig */,
+				F72F5BF143BE76AF8D8E5665 /* Pods-MyMapsToGoTests.debug.xcconfig */,
+				44EA2BC7405F83F3BAD65DA7 /* Pods-MyMapsToGoTests.release.xcconfig */,
+				5F713B5C29E80CFE96B94CA9 /* Pods-MyMapsToGoUITests.debug.xcconfig */,
+				8A0AC2EAED417AC88B2F1893 /* Pods-MyMapsToGoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13DDF0C220918E7400701BD5 /* MyMapsToGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DDF0EE20918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGo" */;
+			buildPhases = (
+				69757BE5B107A950941D9BF2 /* [CP] Check Pods Manifest.lock */,
+				13DDF0BF20918E7400701BD5 /* Sources */,
+				13DDF0C020918E7400701BD5 /* Frameworks */,
+				13DDF0C120918E7400701BD5 /* Resources */,
+				573E9D84A59AD8F814FAD34E /* [CP] Embed Pods Frameworks */,
+				65C766A534A0794D25D22A69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyMapsToGo;
+			productName = MyMapsToGo;
+			productReference = 13DDF0C320918E7400701BD5 /* MyMapsToGo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13DDF0D920918E7700701BD5 /* MyMapsToGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DDF0F120918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGoTests" */;
+			buildPhases = (
+				653F1BE7955FA6E88293DE53 /* [CP] Check Pods Manifest.lock */,
+				13DDF0D620918E7700701BD5 /* Sources */,
+				13DDF0D720918E7700701BD5 /* Frameworks */,
+				13DDF0D820918E7700701BD5 /* Resources */,
+				CAEFFBD245944E4469F79A65 /* [CP] Embed Pods Frameworks */,
+				ED098A6035F7D599DC8BA365 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DDF0DC20918E7700701BD5 /* PBXTargetDependency */,
+			);
+			name = MyMapsToGoTests;
+			productName = MyMapsToGoTests;
+			productReference = 13DDF0DA20918E7700701BD5 /* MyMapsToGoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13DDF0E420918E7700701BD5 /* MyMapsToGoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13DDF0F420918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGoUITests" */;
+			buildPhases = (
+				FB106EA406F7C5DFA2179CE4 /* [CP] Check Pods Manifest.lock */,
+				13DDF0E120918E7700701BD5 /* Sources */,
+				13DDF0E220918E7700701BD5 /* Frameworks */,
+				13DDF0E320918E7700701BD5 /* Resources */,
+				C2B28BA6EEA9DF11FC3B0E58 /* [CP] Embed Pods Frameworks */,
+				839DCDEFB0C86EAC33AF5346 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DDF0E720918E7700701BD5 /* PBXTargetDependency */,
+			);
+			name = MyMapsToGoUITests;
+			productName = MyMapsToGoUITests;
+			productReference = 13DDF0E520918E7700701BD5 /* MyMapsToGoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13DDF0BB20918E7400701BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Fakhrus Ramadhan";
+				TargetAttributes = {
+					13DDF0C220918E7400701BD5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					13DDF0D920918E7700701BD5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 13DDF0C220918E7400701BD5;
+					};
+					13DDF0E420918E7700701BD5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 13DDF0C220918E7400701BD5;
+					};
+				};
+			};
+			buildConfigurationList = 13DDF0BE20918E7400701BD5 /* Build configuration list for PBXProject "MyMapsToGo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13DDF0BA20918E7400701BD5;
+			productRefGroup = 13DDF0C420918E7400701BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13DDF0C220918E7400701BD5 /* MyMapsToGo */,
+				13DDF0D920918E7700701BD5 /* MyMapsToGoTests */,
+				13DDF0E420918E7700701BD5 /* MyMapsToGoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13DDF0C120918E7400701BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DDF0D420918E7700701BD5 /* LaunchScreen.storyboard in Resources */,
+				13DDF0D120918E7700701BD5 /* Assets.xcassets in Resources */,
+				13DDF0CC20918E7400701BD5 /* Main.storyboard in Resources */,
+				13E3E45C2092F050006BC109 /* style.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0D820918E7700701BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0E320918E7700701BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		573E9D84A59AD8F814FAD34E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		653F1BE7955FA6E88293DE53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMapsToGoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65C766A534A0794D25D22A69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGo/Pods-MyMapsToGo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69757BE5B107A950941D9BF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMapsToGo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		839DCDEFB0C86EAC33AF5346 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGoUITests/Pods-MyMapsToGoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B28BA6EEA9DF11FC3B0E58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGoUITests/Pods-MyMapsToGoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAEFFBD245944E4469F79A65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGoTests/Pods-MyMapsToGoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED098A6035F7D599DC8BA365 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMapsToGoTests/Pods-MyMapsToGoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB106EA406F7C5DFA2179CE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyMapsToGoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13DDF0BF20918E7400701BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D2F45C2096F139009A76EF /* GmapsModel.swift in Sources */,
+				13DDF0C920918E7400701BD5 /* MapsViewController.swift in Sources */,
+				13DDF0CF20918E7400701BD5 /* MyMapsToGo.xcdatamodeld in Sources */,
+				13DDF0C720918E7400701BD5 /* AppDelegate.swift in Sources */,
+				13DDF0F82091AC2D00701BD5 /* PopUpModalViewController.swift in Sources */,
+				13D2F4582096DD37009A76EF /* Endpoints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0D620918E7700701BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DDF0DF20918E7700701BD5 /* MyMapsToGoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13DDF0E120918E7700701BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13DDF0EA20918E7700701BD5 /* MyMapsToGoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13DDF0DC20918E7700701BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13DDF0C220918E7400701BD5 /* MyMapsToGo */;
+			targetProxy = 13DDF0DB20918E7700701BD5 /* PBXContainerItemProxy */;
+		};
+		13DDF0E720918E7700701BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13DDF0C220918E7400701BD5 /* MyMapsToGo */;
+			targetProxy = 13DDF0E620918E7700701BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13DDF0CA20918E7400701BD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DDF0CB20918E7400701BD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13DDF0D220918E7700701BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13DDF0D320918E7700701BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13DDF0EC20918E7700701BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13DDF0ED20918E7700701BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13DDF0EF20918E7700701BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B636D3BC932F9A7999E35D06 /* Pods-MyMapsToGo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13DDF0F020918E7700701BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591846F4800B155E3A7ECC1F /* Pods-MyMapsToGo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13DDF0F220918E7700701BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F72F5BF143BE76AF8D8E5665 /* Pods-MyMapsToGoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMapsToGo.app/MyMapsToGo";
+			};
+			name = Debug;
+		};
+		13DDF0F320918E7700701BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44EA2BC7405F83F3BAD65DA7 /* Pods-MyMapsToGoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyMapsToGo.app/MyMapsToGo";
+			};
+			name = Release;
+		};
+		13DDF0F520918E7700701BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F713B5C29E80CFE96B94CA9 /* Pods-MyMapsToGoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMapsToGo;
+			};
+			name = Debug;
+		};
+		13DDF0F620918E7700701BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A0AC2EAED417AC88B2F1893 /* Pods-MyMapsToGoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyMapsToGoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = erpo.MyMapsToGoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyMapsToGo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13DDF0BE20918E7400701BD5 /* Build configuration list for PBXProject "MyMapsToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DDF0EC20918E7700701BD5 /* Debug */,
+				13DDF0ED20918E7700701BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DDF0EE20918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DDF0EF20918E7700701BD5 /* Debug */,
+				13DDF0F020918E7700701BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DDF0F120918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DDF0F220918E7700701BD5 /* Debug */,
+				13DDF0F320918E7700701BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13DDF0F420918E7700701BD5 /* Build configuration list for PBXNativeTarget "MyMapsToGoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13DDF0F520918E7700701BD5 /* Debug */,
+				13DDF0F620918E7700701BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13DDF0CD20918E7400701BD5 /* MyMapsToGo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13DDF0CE20918E7400701BD5 /* MyMapsToGo.xcdatamodel */,
+			);
+			currentVersion = 13DDF0CE20918E7400701BD5 /* MyMapsToGo.xcdatamodel */;
+			path = MyMapsToGo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13DDF0BB20918E7400701BD5 /* Project object */;
+}
